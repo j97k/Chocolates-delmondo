@@ -1,45 +1,598 @@
-/* .header {
-    background-color: #fff111;
-    max-height: 300px;
-}
-
-.logoCon {
+/* body {
+    background-color: #222;
+    height: 100%;
     width: 100%;
-
-}
-*/
+} */
 body {
- margin: 0;
+ margin: auto;
  background-image: url("../img/Hero.jpg");
- background-size: 2366px 768px;
+ background-size: 2400px 790px;
  background-repeat:no-repeat;
  background-position: center top;
- display: compact;
+ background-color: #222;
  font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+logoinNav {
+    display: none;
 }
 .navbar ul {
-    width : 1000px;
-    color: #fff;
-    padding: 0 10px;
+    /* width : max-content; */
+
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px 0px #000;
 }
+.empty {
+    height: 20px;
+}
 
-.MainNavigationBar li a {
-    width : 170px;
+.navbar ul li a {
+
     color: #dfd6cc;
-    size: 1.2em;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     /* padding: 3px 0; */
 }
 
-.boxShadow {
-    width: 1000px;
-    height: 1000px;
-    margin: auto;
-    padding: 0 50px;
-    box-shadow: 0px 0px 50px 0px #000;
+.navBarImg{
+	background-image: url("https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/06_menu_stack-512.png")
 }
 
+
+#GradientFill2
+{
+	background-image: url(img/gradientback.jpg);
+	clear: both;
+	margin-top: 0px;
+}
+
+.mainboxshadow
+{
+	box-shadow: 0px 0px 50px 0px #000;
+	/* width: 1200px; */
+}
+
+.herobox {
+    height: 510px;
+    color:  #f1e8de;
+}
+.heroTextUp {
+    margin: 30px 0 0 30px;
+}
+.textShadow {
+    text-shadow: 10px 15px 15px #000;
+}
+.heroTextUp1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+.heroTextUp2 {
+    font-size: 7em;
+    font-weight: bold;
+}
+.heroTextDown {
+    margin: 150px 0 0 20px;
+    padding: 10px;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+.heroTextDown1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.heroTextDown2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.aboutusbox {
+    width: 1200px;
+    height: max-content;
+    min-height: 500px;
+    margin: auto;
+    clear: both;
+    background-color: rgb(40,36,38);
+
+
+	z-index: -1;
+}
+
+.cardsBox
+{
+    background-color: #5d4639;
+    height: max-content;
+	z-index: -1;
+}
+
+.cardsContainer{
+    margin: 15px;
+}
+
+.allCards {
+    width: 450px;
+    height: 500px;
+    box-shadow: 0px 0px 30px 5px #000;
+    background-color: #333333;
+}
+
+.card1 {
+    margin-top: 20px;
+}
+.card2 {
+    z-index:1;
+}
+.card3 {
+    margin-top: 20px;
+    z-index: 10000px;
+}
+
+
+/* ALL CARDS */
+.allCardHerders {
+    text-align: center;
+    color: #f1e8de;
+}
+.allImgContainer {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.allCardImg {
+    align-self: center;
+    height: 260px;
+    width: 260px
+
+}
+.allCardInfo {
+    background-color: #333333;
+    height: 100px;
+    border-top:5px solid #f1e8de;
+    border-bottom: 5px solid #f1e8de;
+}
+.allCardInfo p {
+    color: #f1e8de;
+    font-size: 1.7em;
+    margin: 10px;
+    text-align: center;
+}
+
+.allBtnContainer {
+    text-align: center;
+}
+.allCardBtn {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    margin: 12px;
+}
+/* END ALL CARDS */
+
+/* CARD 2 */
+.HeroText
+{
+    display:block;
+    width: 500px;
+}
+
+.AboutUs h2 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.AboutUs p {
+    color: white;
+    font-size: 1.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+/*FOOTER*/
+.footer
+{
+    background-color: rgb(23,23,26);
+    height: auto;
+}
+
+.footerNav {
+  list-style: georgian;
+  font-size: 1em;
+  text-decoration: none;
+}
+.fn-a {
+  color: White;
+}
+
+.copyRightCon {
+  margin-top: 20px;
+  background-color: ;
+  height: auto;
+}
+.CopyrightText {
+  color: white;
+  margin: auto;
+}
+
+.MadeByTeamDelta {
+  float: right;
+  color: white;
+  display: inline;;
+}
+
+
+
+
+/*///////////////////////////
+Social Media Links
+///////////////////////////*/
+.smContainer {
+  height: 30px;
+  width: auto;;
+}
+.smLinks {
+  width: auto;
+  height: auto;
+  float: Right;
+  margin-top: 5px;
+  margin-right: -27px;
+}
+.allSmImg {
+  width: 25px;
+  height: 25px;
+}
+
+
+/*///////////////////////////
+Social Media Links
+///////////////////////////*/
+
+
+
+/*
+@media (min-width: 100px) and (max-width: 565px) {
+        .container{
+            background-image: url("../img/Hero.jpg");
+            background-size: 1000px 700px;
+            background-repeat:no-repeat;
+            background-position: center top;
+        }
+        .AboutUs p {
+        color: green;
+        font-size: 1em;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 15px;
+        padding-top: 10px;
+		}
+
+		.navbar {
+			position: fixed; top: 0px;
+			background-color: #111;
+			z-index: 100000px;
+
+            }
+
+        .logo {
+            margin-top: 30px;
+            display: none;
+        }
+        .logoinNav{
+            width: 150px;
+            height: 50px;
+        }
+        .logoText{
+            font-family: sans-serif;
+            color: #fff;
+            font-size: 1.1em;
+            font-size-adjust: 1px ;
+            display: inline;
+        }
+
+        body {
+            margin-top: 50px;
+            background-image: url("../img/Hero.jpg");
+            background-size: 2400px 790px;
+            background-position-x: -1100px;
+           }
+
+
+           .cardsContainer{
+            margin: 15px;
+        }
+
+
+}
+  */
+
+
+
+
+
+
+
+/* css as usual */
+/* .this-class { font-size: 20px; } */
+
+/* condition for screen size minimum of 500px */
+
+
+@media (min-width: 1200px) and (max-width: 5000px) {
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 110px 0 0 20px;
+        padding: 10px;
+        height: 75px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 110px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .card1, .card3 {
+        margin-top: 20px;
+    }
+    .allCardHerders {
+        font-size: 2em;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 80px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .allCards {
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 576px) {
+    .herobox {
+        height: 400px;
+    }
+    .heroTextUp {
+        margin: 30px 0 0 30px;
+    }
+    .textShadow {
+        text-shadow: 10px 15px 15px #000;
+    }
+    .heroTextUp1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .heroTextUp2 {
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .heroTextDown {
+        margin: 80px 0 0 20px;
+        padding: 10px;
+        height: 90px;
+        background: rgba(0, 0, 0, 0.3);
+
+    }
+    .heroTextDown1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .heroTextDown2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .allCards {
+        width: 200px;
+        height: 500px;
+        box-shadow: 0px 0px 30px 5px #000;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 481px) {
+  .herobox {
+      height: 400px;
+  }
+  .heroTextUp {
+      margin: 30px 0 0 30px;
+  }
+  .textShadow {
+      text-shadow: 10px 15px 15px #000;
+  }
+  .heroTextUp1 {
+      font-size: 3em;
+      font-weight: bold;
+  }
+  .heroTextUp2 {
+      font-size: 5em;
+      font-weight: bold;
+  }
+  .heroTextDown {
+      margin: 50px 0 0 20px;
+      padding: 10px;
+      height: 90px;
+      background: rgba(0, 0, 0, 0.3);
+
+  }
+  .heroTextDown1 {
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+  .heroTextDown2 {
+      font-size: 1.5em;
+      font-weight: bold;
+  }
+
+ }
+
+
+@media (min-width: 1px) and (max-width: 576px) {
+    .navbar {
+        position: fixed; top: 0px;
+        background-color: #111;
+        z-index: 100000px;
+
+        }
+
+    .logo {
+        margin-top: 30px;
+        display: none;
+    }
+    .logoinNav{
+        width: 150px;
+        height: 50px;
+    }
+    .logoText{
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 1.1em;
+        font-size-adjust: 1px ;
+        display: inline;
+    }
+
+    body {
+        margin-top: 50px;
+        background-image: url("../img/Hero.jpg");
+        background-size: 1300px 500px;
+       }
+
+    .herobox {
+        height: 450px;
+    }
+
+
+    .cardsContainer{
+        margin: 15px;
+    }
+
+    .allCards {
+        width: 300px;
+        height: 500px;
+        box-shadow: 0px 0px 30px 5px #000;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+
+}
+
+@media (min-width: 1px) and (max-width: 400px) { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .MainNavigationBar{
+    width:
+}
+.nav-item {
+    width: 5px;
+    background-color: green;
+    border: 5px solid red;
+} */
